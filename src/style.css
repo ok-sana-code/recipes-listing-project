@@ -1,27 +1,44 @@
-/* Fonts */
-/* font-family: 'Nunito', sans-serif;
-font-family: 'Roboto', sans-serif; */
-h1 {
-  position: absolute;
-  left: calc(50% - 579px / 2 - 0.5px);
-  top: 182px;
-
-  font-family: "Nunito";
+:root {
+  --primary-font-family: "Nunito", sans-serif;
+  --footer-font-family: "Roboto", sans-serif;
+  --hero-color: #ffffff;
+  --primary-color: #272142;
+  --secondary-color: #662eed;
+  --step-color: #f65282;
+}
+body {
+  font-family: var(--primary-font-family);
+  background: var(--hero-color);
+}
+h1,
+h2 {
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
-  line-height: 98px;
   text-align: center;
+  color: var(--hero-color);
+}
+h1 {
+  font-size: 52px;
+  line-height: 58px;
+ 
+}
+h2 {
+  font-size: 25px;
+  line-height: 25px;
+}
+.hero {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-h3 {
-  position: absolute;
-  top: 284px;
-
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 35px;
-  text-align: center;
+@media (max-width: 800px) {
+  h1 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+  h2 {
+    font-size: 14px;
+    line-height: 15px;
+  }
 }
