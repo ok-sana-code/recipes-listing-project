@@ -90,6 +90,15 @@ footer p {
   margin-right: 40px;
 }
 
+  .icons a {
+    color: var(--primary-color);
+  }
+
+.icons a:hover{
+  color: var(--secondary-color);
+}
+
+
 /* About */
 .about-section {
   margin-bottom: 80px;
@@ -175,6 +184,10 @@ footer p {
   margin-bottom: 100px;
   color: var(--primary-color);
 }
+.contacts a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 .conact-type {
   color: var(--secondary-color);
   font-weight: 700;
@@ -206,9 +219,11 @@ footer p {
   .icon {
     margin-right: 10px;
   }
+
   .icons {
     margin-left: 10px;
   }
+
   footer .logo {
     width: 50px;
   }
