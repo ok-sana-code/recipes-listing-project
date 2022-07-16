@@ -218,6 +218,7 @@ footer p {
   }
   footer .logo {
     width: 50px;
+    line-height: 2;
   }
 
   /* About */
