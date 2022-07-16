@@ -207,13 +207,14 @@ footer p {
   }
   footer p {
     font-size: 7px;
-    line-height: 3;
+    line-height: 4.5;
   }
   .icon {
     margin-right: 10px;
   }
   .icons {
     margin-left: 10px;
+   line-height: 2;
   }
   footer .logo {
     width: 50px;
