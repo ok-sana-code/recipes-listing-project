@@ -187,7 +187,7 @@ footer p {
 }
 
 @media (max-width: 800px) {
-    .hero h1 {
+  .hero h1 {
     font-size: 20px;
     line-height: 1;
   }
@@ -214,11 +214,10 @@ footer p {
   }
   .icons {
     margin-left: 10px;
-   line-height: 2;
+    line-height: 2;
   }
   footer .logo {
     width: 50px;
-    line-height: 2.5;
   }
 
   /* About */
