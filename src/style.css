@@ -53,7 +53,7 @@ h3 {
   color: var(--hero-color);
 }
 .hero h2 {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 25px;
   color: var(--hero-color);
 }
@@ -73,7 +73,6 @@ h3 {
   justify-content: center;
 
 }
-
 button{ text-align: center;
   background-color: #e48417;
   border-radius: 5em;
@@ -88,6 +87,10 @@ button{ text-align: center;
   padding: 15pt;
   color: var(--hero-color);
  }
+.button a{
+  color: #ffffff;
+}
+
 /* Footer */
 
 footer {
@@ -214,7 +217,7 @@ a,
     line-height: 1;
   }
   .hero h2 {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
   }
   .hero {
