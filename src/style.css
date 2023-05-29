@@ -114,6 +114,7 @@ footer p {
   margin-right: 40px;
 }
 
+a, 
 .icons a {
   color: var(--primary-color);
 }
@@ -241,6 +242,7 @@ footer p {
     width: 50px;
     
   }
+ 
 
   /* About */
   .about-section {
