@@ -2,8 +2,8 @@
   --primary-font-family: "Nunito", sans-serif;
   --footer-font-family: "Roboto", sans-serif;
   --hero-color: #ffffff;
-  --primary-color: #272142;
-  --secondary-color: #662eed;
+  --primary-color: #e48417;
+  --secondary-color: #e90e0e;
   --step-color: #f65282;
 }
 body {
@@ -38,7 +38,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-style: normal;
   font-weight: 700;
   text-align: center;
@@ -56,17 +57,37 @@ h2 {
   line-height: 25px;
   color: var(--hero-color);
 }
+
 .hero {
   background-image: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.2) 100%
+      rgba(251, 99, 11, 0.917) 0%,
+      rgba(223, 227, 4, 0.947) 100%
     ),
-    url(/images/bg.png);
-  background-size: 100%;
+    url(/images/);
+  background-size:100%;
   background-repeat: no-repeat;
 }
+.button{
+  display:flex;
+  justify-content: center;
 
+}
+
+button{ text-align: center;
+  background-color: #e48417;
+  border-radius: 5em;
+  border: #e48417;
+  padding: 15pt;
+  color: var(--hero-color);
+}
+ button:hover{
+  background-color: #e48417c6;
+  border-radius: 5em;
+  border: #e48417;
+  padding: 15pt;
+  color: var(--hero-color);
+ }
 /* Footer */
 
 footer {
